@@ -18,6 +18,4 @@ async def on_message(message):
     if message.content.startswith("펜저야 자니"):
         await message.channel.send('ㅇㅇ')
 
-
-access_token = os.environ["BOT_TOKEN"]
-client.run(access_token)
+client.run("NzA5ODEyOTcwMjQ2NTA0NTAx.XrrXRA.OaOqmv4P7CpQw11gpqZNrAJukJA")
